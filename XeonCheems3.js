@@ -1678,8 +1678,8 @@ title:"HELLO HOW ARE YOU 👻",
 body: "ꜰᴏʟʟᴏᴡ ᴍy ɪɴꜱᴛᴀɢʀᴀᴍ", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://i.imgur.com/7thvbRs.jpeg',
-sourceUrl: "https://i.imgur.com/7thvbRs.jpeg"
+mediaUrl: 'http://instagram.com/_munavir._',
+sourceUrl: "http://instagram.com/_munavir._"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
