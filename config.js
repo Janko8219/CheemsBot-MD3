@@ -41,26 +41,26 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['ur number'] //ur owner number
-global.ownername = "ur name"
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.owner = ['918590822912'] //ur owner number
+global.ownername = "𝛭𝑈𝛮𝛥𝛻𝛪𝑅"
+global.ytname = "𝑅𝛩𝐿𝐿𝛯𝛸" //ur yt chanel name
+global.socialm = "Insta: munavir" //ur github or insta name
+global.location = "India, Kerala, Malappuram" //ur location
 
 //bot bombdy
-global.botname = "ur bot name" //ur bot name
-global.websitex = "https://youtu.be/xn9RatOrbuI" //ur website
-global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
-global.packname = "Cheems Bot Stickers\n\n\n\n\n\n\n🦄🦄🦄 "
-global.author = "🦄Dream Guy Xeon"
-global.themeemoji = "🐶"
-global.reactmoji = "😘"
-global.ownertag = ['ur number'] //ur owner tag
-global.ownernummenu = ['ur number'] //ur owner number in menu and all
-global.watermark = "Xeon Bot Inc." //ur watermark
-global.botscript = "https://github.com/DGXeon/CheemsBot-MD3"
-global.linkz1 = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"
-global.linkz2 = "https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd"
+global.botname = "𝑅𝛩𝐿𝐿𝛯𝛸" //ur bot name
+global.websitex = "http://instagram.com/_munavir._" //ur website
+global.vidmenu = { url: 'https://telegra.ph/file/e60be1ce2f2f1a60cd9ea.mp4' } //gif and video menu
+global.packname = "𝑹𝑶𝑳𝑳𝑬𝑿 🦋\n\n\n\n\n\n\n💗 "
+global.author = "𝑹𝑶𝑳𝑳𝑬𝑿 🦋"
+global.themeemoji = "👻"
+global.reactmoji = "😝"
+global.ownertag = ['918590822912'] //ur owner tag
+global.ownernummenu = ['918590822912'] //ur owner number in menu and all
+global.watermark = "𝑅𝛩𝐿𝐿𝛯𝛸." //ur watermark
+global.botscript = ""
+global.linkz1 = "http://instagram.com/_munavir._"
+global.linkz2 = "http://instagram.com/_munavir._"
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -101,7 +101,7 @@ global.mess = {
     group: 'This feature is only for groups!',
     private: 'This feature is only for private chats!',
     bot: 'This feature is only for bot',
-    wait: 'In process...',
+    wait: 'ᴡᴀɪᴛ ᴩʀᴏᴄᴇꜱꜱɪɴɢ😌.',
     linkm: 'Where is the link?',
     error: 'Error!',
     ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
