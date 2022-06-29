@@ -63,8 +63,8 @@ global.linkz1 = "http://instagram.com/_munavir._"
 global.linkz2 = "http://instagram.com/_munavir._"
 
 //Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
+global.thum = fs.readFileSync("./XeonMedia/theme/20220623_222459.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/20220623_222459.jpg") //ur logo pic
 global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
 global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
