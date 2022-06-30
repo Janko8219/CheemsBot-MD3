@@ -1538,7 +1538,7 @@ const uangku = getBalance(m.sender, balance)
 const reqXp  = 200 * (Math.pow(2, getLevelingLevel(m.sender)) - 1)
 const jumlahUser = pendaftar.length
   if (!isDarah){ addInventoriDarah(m.sender, DarahAwal) }
-  if (!isInventory){ addInventori(m.sender) }
+  if (!isInventory){ addInventori(m.sender) } 
   if (!isInventoriBuruan){ addInventoriBuruan(m.sender) }
   
 const menulist = `┌─✿
@@ -1547,29 +1547,25 @@ const menulist = `┌─✿
 ┌┤   𝙷𝙴𝙻𝙻𝙾 𝙷𝙾𝚆 𝙰𝚁𝙴 𝚈𝙾𝚄 🤗
 │└────────────┈ ⳹
 │
-└─⟤「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
- ➳𝚂𝙿𝙴𝙴𝙳  : ${latensie.toFixed(4)} miliseconds
- ➳𝚁𝚄𝙽𝚃𝙸𝙼𝙴 : ${runtime(process.uptime())}
- ➳𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 : ${global.botname}
- ➳𝙾𝚆𝙽𝙴𝚁 𝙽𝙰𝙼𝙴 : ${global.ownername}
- ➳𝙾𝚆𝙽𝙴𝚁 𝙽𝙾 : ${global.ownernummenu}
- ➳𝙷𝙾𝚂𝚃 𝙽𝙰𝙼𝙴 : ${os.hostname()}
- ➳𝙿𝙻𝙰𝚃𝙵𝙾𝚁𝙼 : ${os.platform()}
- ➳𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁 : ${Object.keys(global.db.users).length}
- ➳𝚃𝙾𝚃𝙰𝙻 𝙷𝙸𝚃 : ${jumlahcmd}
- ➳𝚃𝙾𝚃𝙰𝙻 𝙷𝙸𝚃 𝚃𝙾𝙳𝙰𝚈 : ${jumlahharian}
- 
-   ⟤「 𝙐𝙎𝙀𝙍'𝙎 𝙇𝙀𝙑𝙀𝙇𝙄𝙉𝙂 」
- ➳𝚈𝙾𝚄𝚁 𝙻𝙴𝚅𝙴𝙻𝙸𝙽𝙶 : ${levelMenu}
- ➳𝚈𝙾𝚄𝚁 𝚇𝙿 : ${xpMenu}\ ${reqXp}
- ➳𝚈𝙾𝚄𝚁 𝚁𝙾𝙻 : ${role}
- ➳𝚈𝙾𝚄𝚁 𝙼𝙾𝙽𝙴𝚈 : $${uangku}
+╭─❒ 「 𝑩𝑶𝑻 𝑰𝑵𝑭𝑶 」 
+├ 𝙾𝚆𝙽𝙴𝚁 𝙽𝙰𝙼𝙴 : ${global.ownername}
+├ 𝙾𝚆𝙽𝙴𝚁 𝙽𝙾 : ${global.ownernummenu}
+├ 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 : ${global.botname}
+├ 𝚂𝙿𝙴𝙴𝙳  : ${latensie.toFixed(4)} miliseconds
+├ 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 : ${runtime(process.uptime())}
+├ 𝙷𝙾𝚂𝚃 𝙽𝙰𝙼𝙴 : ${os.hostname()}
+├ 𝙿𝙻𝙰𝚃𝙵𝙾𝚁𝙼 : ${os.platform()}
+├ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁 : ${Object.keys(global.db.users).length}
+├ 𝚃𝙾𝚃𝙰𝙻 𝙷𝙸𝚃 : ${jumlahcmd}
+├ 𝚃𝙾𝚃𝙰𝙻 𝙷𝙸𝚃 𝚃𝙾𝙳𝙰𝚈 : ${jumlahharian}
+╰❒ 
 
-  「 𝙐𝙎𝙀𝙍'𝙎 𝘼𝘿𝙑𝙀𝙉𝙏𝙐𝙍𝙀 」
- ➳𝚈𝙾𝚄𝚁 𝙸𝚁𝙾𝙽 : ${getBesi(m.sender)}
- ➳𝚈𝙾𝚄𝚁 𝙶𝙾𝙻𝙳 : ${getEmas(m.sender)}
- ➳𝚈𝙾𝚄𝚁 𝙴𝙼𝙴𝚁𝙰𝙻𝙳 : ${getEmerald(m.sender)}
- ➳𝚈𝙾𝚄𝚁 𝙿𝙾𝚃𝙸𝙾𝙽 : ${getPotion(m.sender)}
+╭─❒ 「 𝑶𝑾𝑵𝑬𝑹 𝑰𝑵𝑭𝑶 」 
+├ 𝙸𝙽𝚂𝚃𝙰 : _munavir._
+├ 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 : ${global.ownernummenu}
+├ 𝙽𝙰𝙼𝙴 : ī.am/ꪶᴍᴜɴᴀᴠɪʀ☆
+├ 𝙶𝙴𝙽𝙳𝙴𝚁 : Male
+╰❒ 
 └┬────────────┈ ⳹
    │🎈  𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙻𝙴𝙲𝚃
    │   𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆
@@ -1678,8 +1674,8 @@ title:"HELLO HOW ARE YOU 👻",
 body: "ꜰᴏʟʟᴏᴡ ᴍy ɪɴꜱᴛᴀɢʀᴀᴍ", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'http://instagram.com/_munavir._',
-sourceUrl: "http://instagram.com/_munavir._"
+mediaUrl: 'https://i.imgur.com/7thvbRs.jpeg',
+sourceUrl: "https://i.imgur.com/7thvbRs.jpeg"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
