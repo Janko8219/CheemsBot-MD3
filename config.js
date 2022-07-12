@@ -50,11 +50,11 @@ global.location = "India, Kerala, Malappuram" //ur location
 //bot bombdy
 global.botname = "𝑅𝛩𝐿𝐿𝛯𝛸" //ur bot name
 global.websitex = "http://instagram.com/_munavir._" //ur website
-global.vidmenu = { url: '' } //gif and video menu
+global.vidmenu = { url: 'https://telegra.ph/file/e60be1ce2f2f1a60cd9ea.mp4' } //gif and video menu
 global.packname = "𝑹𝑶𝑳𝑳𝑬𝑿 🦋\n\n\n\n\n\n\n💗 "
 global.author = "𝑹𝑶𝑳𝑳𝑬𝑿 🦋"
-global.themeemoji = "✯"
-global.reactmoji = "💗"
+global.themeemoji = "👻"
+global.reactmoji = "😝"
 global.ownertag = ['918590822912'] //ur owner tag
 global.ownernummenu = ['918590822912'] //ur owner number in menu and all
 global.watermark = "𝑅𝛩𝐿𝐿𝛯𝛸." //ur watermark
@@ -63,8 +63,8 @@ global.linkz1 = "http://instagram.com/_munavir._"
 global.linkz2 = "http://instagram.com/_munavir._"
 
 //Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/20220623_222459.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/20220623_222459.jpg") //ur logo pic
+global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
 global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
 global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
